@@ -69,5 +69,10 @@ namespace Lab4._2_TeamWork
         {
             return A - B;
         }
+
+        int Multiplication(int A, int B)
+        {
+            return A * B;
+        }
     }
 }
