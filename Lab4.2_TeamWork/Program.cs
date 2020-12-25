@@ -10,6 +10,8 @@ namespace Lab4._2_TeamWork
     {
         static void Main(string[] args)
         {
+            int A = 0, B = 0, choice;
+
             for (; ; )
             {
                 Console.Write("Введите номер пункта меню (или другое число, если хотите выйти): ");
