@@ -57,5 +57,10 @@ namespace Lab4._2_TeamWork
 
             return Convert.ToInt32(Console.ReadLine());
         }
+
+        int Addition(int A, int B)
+        {
+            return A + B;
+        }
     }
 }
