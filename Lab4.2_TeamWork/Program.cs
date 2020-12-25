@@ -21,5 +21,10 @@ namespace Lab4._2_TeamWork
 
             Console.ReadKey();
         }
+
+        int Subtraction(int A, int B)
+        {
+            return A - B;
+        }
     }
 }
