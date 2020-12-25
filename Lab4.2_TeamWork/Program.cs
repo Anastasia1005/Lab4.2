@@ -50,5 +50,11 @@ namespace Lab4._2_TeamWork
 
             return Convert.ToInt32(Console.ReadLine());
         }
+
+        static int Enter_B()
+        {
+            Console.Write("Введите число B: ");
+            return Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
