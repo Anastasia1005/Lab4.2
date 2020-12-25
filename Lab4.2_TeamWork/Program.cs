@@ -21,5 +21,11 @@ namespace Lab4._2_TeamWork
 
             Console.ReadKey();
         }
+
+        static int Enter_A()
+        {
+            Console.Write("Введите число A: ");
+            return Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
