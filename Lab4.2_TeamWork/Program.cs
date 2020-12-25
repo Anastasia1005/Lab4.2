@@ -12,6 +12,13 @@ namespace Lab4._2_TeamWork
         {
             int A = 0, B = 0, choice;
 
+            Console.WriteLine("1. Ввести число A");
+            Console.WriteLine("2. Ввести число B");
+            Console.WriteLine("3. Сложить A и B");
+            Console.WriteLine("4. Вычесть B из A");
+            Console.WriteLine("5. Умножить A на B");
+            Console.WriteLine("6. Разделить A на B");
+
             for (; ; )
             {
                 Console.Write("Введите номер пункта меню (или другое число, если хотите выйти): ");
@@ -44,6 +51,8 @@ namespace Lab4._2_TeamWork
                 else
                     break;
             }
+
+            Console.ReadKey();
         }
 
         static int Enter_A()
