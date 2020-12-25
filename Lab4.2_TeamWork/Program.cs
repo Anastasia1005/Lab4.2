@@ -74,5 +74,10 @@ namespace Lab4._2_TeamWork
         {
             return A * B;
         }
+
+        int Division(int A, int B)
+        {
+            return A / B;
+        }
     }
 }
